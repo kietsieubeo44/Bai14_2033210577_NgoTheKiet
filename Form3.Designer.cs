@@ -112,6 +112,7 @@
             this.cobxDonViDaoTao.OnHoverItemForeColor = System.Drawing.Color.White;
             this.cobxDonViDaoTao.Size = new System.Drawing.Size(407, 31);
             this.cobxDonViDaoTao.TabIndex = 5;
+            this.cobxDonViDaoTao.SelectedIndexChanged += new System.EventHandler(this.cobxDonViDaoTao_SelectedIndexChanged);
             // 
             // gunaDataGridView1
             // 
@@ -171,7 +172,7 @@
             this.gunaDataGridView1.ThemeStyle.RowsStyle.Height = 24;
             this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
+           
             // gunaLabel3
             // 
             this.gunaLabel3.AutoSize = true;

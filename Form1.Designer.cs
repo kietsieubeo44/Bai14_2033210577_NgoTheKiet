@@ -71,6 +71,7 @@
             this.txtTenMay.SelectedText = "";
             this.txtTenMay.Size = new System.Drawing.Size(419, 32);
             this.txtTenMay.TabIndex = 1;
+            this.txtTenMay.Text = "1";
             this.txtTenMay.TextChanged += new System.EventHandler(this.txtTenMay_TextChanged);
             // 
             // gunaPanel1
@@ -159,6 +160,7 @@
             this.txtTenCSDL.SelectedText = "";
             this.txtTenCSDL.Size = new System.Drawing.Size(419, 32);
             this.txtTenCSDL.TabIndex = 5;
+            this.txtTenCSDL.Text = "1";
             this.txtTenCSDL.TextChanged += new System.EventHandler(this.txtTenCSDL_TextChanged);
             // 
             // gunaLabel2
@@ -186,6 +188,7 @@
             this.txtUser.SelectedText = "";
             this.txtUser.Size = new System.Drawing.Size(419, 32);
             this.txtUser.TabIndex = 7;
+            this.txtUser.Text = "admin";
             this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
             // 
             // gunaLabel3
@@ -213,6 +216,7 @@
             this.txtPassWord.SelectedText = "";
             this.txtPassWord.Size = new System.Drawing.Size(419, 32);
             this.txtPassWord.TabIndex = 9;
+            this.txtPassWord.Text = "adminpassword";
             this.txtPassWord.TextChanged += new System.EventHandler(this.txtPassWord_TextChanged);
             // 
             // gunaLabel4
