@@ -18,5 +18,6 @@ namespace Bai14_2033210577_NgoTheKiet
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
     }
 }
